@@ -21,19 +21,10 @@
         id:'dev',
         title:'dev.withcenter.com',
         source_top:'http://218.50.181.110/monitor/index.php',
-        source_disk:'http://218.50.181.110/monitor/df.php'
+        source_disk:'http://218.50.181.110/monitor/df.php',
+        sound:'siren',
+        time_zone:'KST'
     } );
-
-    add_server_monitor( {
-        id:'dev_2',
-        title:'dev.withcenter.com',
-        source_top:'http://218.50.181.110/monitor/index.php',
-        source_disk:'http://218.50.181.110/monitor/df.php'
-    } );
-
-   // add_ping_monitor( { id: 'dev_top_02', title: 'dev.withcenter.com_02', source: 'http://218.50.181.110/monitor/index.php' } );
-
-
 
     add_ping_monitor( {id: 'kiss',title: 'KISS Internet',ip: '168.126.63.1'} );
     add_ping_monitor( { id: 'convergy', title: 'Convergy Internet', ip: '111.125.97.38', sound: 'birds_phalcon', count: 3 } );

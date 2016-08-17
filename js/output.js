@@ -47,8 +47,8 @@ function add_graph( o, location, data, raw, unit, count ){
 
     var color = normal;
     if ( location == ".graph_load_"+o.id){
-        if ( data >= 90 ) color = emergency;
-        else if ( data <  65 ) color = normal;
+        if ( data >= 80 ) color = emergency;
+        else if ( data < 60 ) color = normal;
         else if ( data < 80 ) color = watch;
         
         if ( data > 100 ) data = 100;
