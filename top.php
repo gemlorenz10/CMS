@@ -2,7 +2,7 @@
 <?php
 header("Access-Control-Allow-Origin: *");
 $today = date('Ymd');
-$content = file_get_contents( "log/df/$today.log" );
+$content = file_get_contents( "log/top/$today.log" );
 
 $arr = explode("\n", $content );
 $new_arr = array_chunk( $arr, 5 );
