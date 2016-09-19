@@ -21,5 +21,5 @@ foreach( $new_arr as $log ) {
     $stats[] = $s;
 }
 
-print_r($stats);
-//echo json_encode( $stats );
+//print_r($stats);
+echo json_encode( $stats );
